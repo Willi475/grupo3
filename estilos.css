@@ -1,0 +1,254 @@
+:root{
+    --color-uno: #004F2D;
+    --color-dos: #DBF4AD;
+    --color-tres: #A9E190;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.sec1 .contenedor1{
+    height: 100vmin;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    background: linear-gradient(rgba(41, 41, 41, 0.801), rgba(36, 36, 36, 0.568)), url(sachin.png) no-repeat center center;
+    background-size: cover;
+    padding: 40px;
+}
+img{
+    border-radius: 10px;
+    height: 70px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 100px;
+    background-color: var(--color-tres);
+    width: 95vmax;
+    border-radius: 20px;
+    gap: 20px;
+    top: 20px;
+    left: 25px;
+    & a{
+        text-decoration: none;
+        background-color: var(--color-uno);
+        color: white;
+        padding: 15px;
+        border-radius: 30px;
+    }
+}
+
+.sec1 .contenedor1 .desc{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    & h1{
+        color: white;
+        font-size: 50px;
+    }
+    & h4{
+        color: rgb(201, 201, 201);
+        font-size: 20px;
+    }
+}
+.sec1  button{
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: var(--color-uno);
+    &:hover{
+        background-color: var(--color-dos);
+        color: black;
+    }
+}
+
+.sec2 .contenedor2{
+    height: 100vmin;
+    background-color: var(--color-dos);
+    display: flex;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+.sec2 .peli1{
+    height: 400px;
+    width: 80px;
+    background-color: var(--color-uno);
+    border-radius: 20px;
+}
+.sec2 .peli2{
+    height: 400px;
+    width: 80px;
+    background-color: var(--color-uno);
+    border-radius: 20px;
+}
+.sec2 .peli3{
+    height: 400px;
+    width: 80px;
+    background-color: var(--color-uno);
+    border-radius: 20px;
+}
+.sec2 .peli4{
+    height: 400px;
+    width: 80px;
+    background-color: var(--color-uno);
+    border-radius: 20px;
+}
+.sec2 .peli5{
+    height: 400px;
+    width: 80px;
+    background-color: var(--color-uno);
+    border-radius: 20px;
+}
+
+.sec3 .contenedor3{
+    height: 100vmin;
+    background-color: var(--color-dos);
+    display: flex;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+.sec3 .nomi1{
+    height: 300px;
+    width: 300px;
+    background-color: var(--color-uno);
+    border-radius: 300px;
+}
+.sec3 .nomi2{
+    height: 300px;
+    width: 300px;
+    background-color: var(--color-uno);
+    border-radius: 300px;
+
+}
+
+.sec3 .nomi3{
+    height: 300px;
+    width: 300px;
+    background-color: var(--color-uno);
+    border-radius: 300px;
+}
+
+.sec4 .contenedor4{
+    height: 100vmin;
+    background-color: var(--color-dos);
+    gap: 30px;
+    padding-top: 150px;
+}
+.sec4 .contenedor4 .contenido4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.sec4 .prox1{
+    height: 300px;
+    width: 200px;
+    background-color: var(--color-uno);
+    border-radius: 20px;
+}
+.sec4 .prox2{
+    height: 400px;
+    width: 200px;
+    background-color: var(--color-uno);
+    border-radius: 20px;
+}
+
+.sec4 .prox3{
+    height: 300px;
+    width: 200px;
+    background-color: var(--color-uno);
+    border-radius: 20px;
+}
+
+.sec5 .contenedor5{
+    height: 100vmin;
+    background-color: var(--color-dos);
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sec5 .contenedor5 .contenido5{
+    width: 90vmax;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+}
+.sec5 .cand1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-color: var(--color-uno);
+    border-radius: 20px;
+}
+.sec5 .cand2{
+    background-color: var(--color-uno);
+    border-radius: 20px;
+}
+
+.sec5 .cand3{
+    background-color: var(--color-uno);
+    border-radius: 20px;
+}
+.sec5 .cand4{
+    background-color: var(--color-uno);
+    grid-column: 3/5;
+    border-radius: 20px;
+}
+
+.sec6 .contenedor6{
+    height: 100vmin;
+    background-color: var(--color-dos);
+    gap: 30px;
+    padding-top: 150px;
+}
+.sec6 .contenedor6 .contenido6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.sec6 .prom1{
+    height: 70px;
+    width: 90vmax;
+    background-color: var(--color-uno);
+    border-radius: 20px;
+}
+.sec6 .prom2{
+    height: 70px;
+    width: 90vmax;
+    background-color: var(--color-uno);
+    border-radius: 20px;
+}
+.sec6 .prom3{
+    height: 70px;
+    width: 90vmax;
+    background-color: var(--color-uno);
+    border-radius: 20px;
+}
+.sec6 .prom4{
+    height: 70px;
+    width: 90vmax;
+    background-color: var(--color-uno);
+    border-radius: 20px;
+}
