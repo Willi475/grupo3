@@ -5,58 +5,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VISCINE</title>
     <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <nav class="menu">
-        <img src="Logo.jpg">
-        <a href="#sec1">Estreno principal</a>
+        <a href="#sec1">
+            <img src="logo2.jpg">
+        </a>
         <a href="#sec2">Cartelera</a>
         <a href="#sec3">Nominaciones</a>
         <a href="#sec4">Próximamente</a>
         <a href="#sec5">Candy Shop</a>
         <a href="#sec6">Promociones</a>
     </nav>
-    <section class="sec1">
+    <section id="sec1">
         <div class="contenedor1">
-            <div class="desc">
-                <h1>Viscacha</h1>
-                <h4>Una viscacha busca la venganza tras enterarse de la identidad del hombre que mato a su familia, un filme hermoso del reconocido director Adrian Calsiccini ganador de un Oscar.</h4>
+            <div class="peliprincipal">
+                <div class="desc">
+                    <h1>Viscacha</h1>
+                    <h4>Una viscacha busca la venganza tras enterarse de la identidad del hombre que mato a su familia, un filme hermoso del reconocido director Adrian Calsiccini ganador de un Oscar.</h4>
+                </div>
+                <a href="#sec2">Compre sus entradas</a>
             </div>
-            <button>Compre sus entradas</button>
         </div>
     </section>
-    <section class="sec2">
+
+    <section id="sec2">
         <div class="contenedor2">
             <h1>Cartelera</h1>
-            <div class="peli1"></div>
-            <div class="peli2"></div>
-            <div class="peli3"></div>
-            <div class="peli4"></div>
-            <div class="peli5"></div>
+            <div class="peliculas">
+                <input type="radio" name="pelis" id="p1" checked>
+                <label for="p1">
+                    <div class="peli1">
+                        <div class="fila">
+                            <div class="numero">1</div>
+                            <div class="descripcion">
+                                <h4>Viscacha</h4>
+                                <p>Una viscacha busca la venganza tras enterarse de la identidad del hombre que mato a su familia, un filme hermoso del reconocido director Adrian Calsiccini ganador de un Oscar.</p>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="pelis" id="p2">
+                <label for="p2">
+                    <div class="peli2">
+                        <div class="fila">
+                            <div class="numero">2</div>
+                            <div class="descripcion">
+                                <h4>Preco Sabio</h4>
+                                <p>Un preco que siempre fue subestimado consigue volverse en un sabio del wacheo ganandose el respeto de todo el cuartel.</p>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="pelis" id="p3">
+                <label for="p3">
+                    <div class="peli3">
+                        <div class="fila">
+                            <div class="numero">3</div>
+                            <div class="descripcion">
+                                <h4>La oveja espia</h4>
+                                <p>Una oveja tiene que captura a una sacha que tiene antecesdentes penales por evasion de impuestos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="pelis" id="p4">
+                <label for="p4">
+                    <div class="peli4">
+                        <div class="fila">
+                            <div class="numero">4</div>
+                            <div class="descripcion">
+                                <h4>Corrupcion</h4>
+                                <p>Un tesorero deshonesto usa los fondos del gobierno para sus placeres con el constante miedo en que lo descubran.</p>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="pelis" id="p5">
+                <label for="p5">
+                    <div class="peli5">
+                        <div class="fila">
+                            <div class="numero">5</div>
+                            <div class="descripcion">
+                                <h4>Perro de sacha</h4>
+                                <p>Un perro fiel se queda esperando a su amo sacha por toda la eternidad, sin embargo este fallecio en un accidente y no volvera.</p>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+            </div>
         </div>
     </section>
-    <section class="sec3">
+
+    <section id="sec3">
         <div class="contenedor3">
             <h1>Nominaciones</h1>
-            <div class="nomi1"></div>
-            <div class="nomi2"></div>
-            <div class="nomi3"></div>
+            <div class="nominados">
+                <div class="nomi1"></div>
+                <div class="nomi2"></div>
+                <div class="nomi3"></div>
+                <div class="nomi4"></div>
+                <div class="nomi5"></div>
+            </div>
         </div>
     </section>
-    <section class="sec4">
+    <section id="sec4">
         <div class="contenedor4">
             <h1>Proximamente</h1>
-            <div class="contenido4">
+            <div class="pronto">
                 <div class="prox1"></div>
                 <div class="prox2"></div>
                 <div class="prox3"></div>
+                <div class="prox4"></div>
+                <div class="prox5"></div>
             </div>
         </div>
     </section>
-    <section class="sec5">
+    <section id="sec5">
         <div class="contenedor5">
-            <h1>Proximamente</h1>
-            <div class="contenido5">
+            <h1>Candy Shop</h1>
+            <div class="dulces">
                 <div class="cand1"></div>
                 <div class="cand2"></div>
                 <div class="cand3"></div>
@@ -64,10 +134,10 @@
             </div>
         </div>
     </section>
-    <section class="sec6">
+    <section id="sec6">
         <div class="contenedor6">
-            <h1>Proximamente</h1>
-            <div class="contenido6">
+            <h1>Promociones</h1>
+            <div class="promos">
                 <div class="prom1"></div>
                 <div class="prom2"></div>
                 <div class="prom3"></div>
