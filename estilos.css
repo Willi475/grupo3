@@ -149,6 +149,9 @@ label{
     background-color: #0bb164;
     overflow: hidden;
     transition: 0.5s ease;
+    &:hover{
+        box-shadow: 0 5px 30px rgba(11, 130, 241, 0.705);
+    }
 }
 input:checked+label{
     width: 600px;
@@ -419,30 +422,75 @@ input:checked+label .descripcion{
             width: 200px;
             background-color: var(--color-uno);
             border-radius: 20px;
+            transition: 0.5s ease;
+            cursor: pointer;
+            &:hover{
+                height: 400px;
+                width: 200px;
+                background-color: var(--color-uno);
+                border-radius: 20px;
+                box-shadow: 0 5px 30px rgba(164, 51, 230, 0.493);
+            }
         }
         & .prox2{
             height: 300px;
             width: 200px;
             background-color: var(--color-uno);
             border-radius: 20px;
+            transition: 0.5s ease;
+            cursor: pointer;
+            &:hover{
+                height: 400px;
+                width: 200px;
+                background-color: var(--color-uno);
+                border-radius: 20px;
+                box-shadow: 0 5px 30px rgba(164, 51, 230, 0.493);
+            }
         }
         & .prox3{
             height: 300px;
             width: 200px;
             background-color: var(--color-uno);
             border-radius: 20px;
+            transition: 0.5s ease;
+            cursor: pointer;
+            &:hover{
+                height: 400px;
+                width: 200px;
+                background-color: var(--color-uno);
+                border-radius: 20px;
+                box-shadow: 0 5px 30px rgba(164, 51, 230, 0.493);
+            }
         }
         & .prox4{
             height: 300px;
             width: 200px;
             background-color: var(--color-uno);
             border-radius: 20px;
+            transition: 0.5s ease;
+            cursor: pointer;
+            &:hover{
+                height: 400px;
+                width: 200px;
+                background-color: var(--color-uno);
+                border-radius: 20px;
+                box-shadow: 0 5px 30px rgba(164, 51, 230, 0.493);
+            }
         }
         & .prox5{
             height: 300px;
             width: 200px;
             background-color: var(--color-uno);
             border-radius: 20px;
+            transition: 0.5s ease;
+            cursor: pointer;
+            &:hover{
+                height: 400px;
+                width: 200px;
+                background-color: var(--color-uno);
+                border-radius: 20px;
+                box-shadow: 0 5px 30px rgba(164, 51, 230, 0.493);
+            }
         }
     }  
 }
@@ -459,35 +507,55 @@ input:checked+label .descripcion{
     & h1{
         color: white;
     }
-}
-#sec5 .contenedor5 .dulces{
-    width: 90vmax;
-    height: 400px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 15px;
-}
-#sec5 .cand1{
-    grid-column: 1/3;
-    grid-row: 1/3;
-    background-color: var(--color-uno);
-    border-radius: 20px;
-}
-#sec5 .cand2{
-    background-color: var(--color-uno);
-    border-radius: 20px;
-}
+    & .dulces{
+        width: 90vmax;
+        height: 400px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+        & .cand1{
+            grid-column: 1/3;
+            grid-row: 1/3;
+            background-color: var(--color-uno);
+            border-radius: 20px;
+            cursor: pointer;
+            &:hover{
+                box-shadow: 0 5px 30px rgba(255, 123, 0, 0.658);
+            }
+        }
+        & .cand2{
+            background-color: var(--color-uno);
+            border-radius: 20px;
+            cursor: pointer;
+            &:hover{
+                box-shadow: 0 5px 30px rgba(255, 123, 0, 0.658);
+            }
+        }
+        }
+        
+        & .cand3{
+            background-color: var(--color-uno);
+            border-radius: 20px;
+            cursor: pointer;
+            &:hover{
+                box-shadow: 0 5px 30px rgba(255, 123, 0, 0.658);
+            }
+        }
+        }
+        & .cand4{
+            background-color: var(--color-uno);
+            grid-column: 3/5;
+            border-radius: 20px;
+            cursor: pointer;
+            &:hover{
+                box-shadow: 0 5px 30px rgba(255, 123, 0, 0.658);
+            }
+        }
+        
+    
 
-#sec5 .cand3{
-    background-color: var(--color-uno);
-    border-radius: 20px;
-}
-#sec5 .cand4{
-    background-color: var(--color-uno);
-    grid-column: 3/5;
-    border-radius: 20px;
-}
+
 
 #sec6 .contenedor6{
     height: 100vmin;
@@ -497,8 +565,6 @@ input:checked+label .descripcion{
     & h1{
         color: white;
     }
-}
-#sec6 .contenedor6{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -512,27 +578,51 @@ input:checked+label .descripcion{
         gap: 30px;
         & .prom1{
             height: 70px;
-            width: 90vmax;
+            width: 70vmax;
             background-color: var(--color-uno);
             border-radius: 20px;
+            cursor: pointer;
+            transition: 0.5s ease;
+            &:hover{
+                box-shadow: 0 5px 30px rgba(236, 26, 43, 0.747);
+                width: 90vmax;
+            }
         }
         & .prom2{
             height: 70px;
-            width: 90vmax;
+            width: 70vmax;
             background-color: var(--color-uno);
             border-radius: 20px;
+            cursor: pointer;
+            transition: 0.5s ease;
+            &:hover{
+                box-shadow: 0 5px 30px rgba(236, 26, 43, 0.747);
+                width: 90vmax;
+            }
         }
         & .prom3{
             height: 70px;
-            width: 90vmax;
+            width: 70vmax;
             background-color: var(--color-uno);
             border-radius: 20px;
+            cursor: pointer;
+            transition: 0.5s ease;
+            &:hover{
+                box-shadow: 0 5px 30px rgba(236, 26, 43, 0.747);
+                width: 90vmax;
+            }
         }
         & .prom4{
             height: 70px;
-            width: 90vmax;
+            width: 70vmax;
             background-color: var(--color-uno);
             border-radius: 20px;
+            cursor: pointer;
+            transition: 0.5s ease;
+            &:hover{
+                box-shadow: 0 5px 30px rgba(236, 26, 43, 0.747);
+                width: 90vmax;
+            }
         }
     }
 }
