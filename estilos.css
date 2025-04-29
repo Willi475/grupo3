@@ -23,14 +23,39 @@ img{
     border-radius: 10px;
     height: 70px;
 }
+a[href*="#sec1"] span{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    border-radius: 200px;
+    color: var(--color-uno);
+    background-color: var(--color-tres);
+    border: none;
+    bottom:20px;
+    right: 40px;
+}
 nav{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: fixed;
     height: 100px;
     background-color: var(--color-tres);
     width: 100vmax;
     gap: 15px;
+    & .parte1menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    & .parte2menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     & a{
         text-decoration: none;
         font-size: 12px;
@@ -39,6 +64,14 @@ nav{
         border-radius: 30px;
         &:hover{
             background-color: var(--color-uno);
+        }
+        &[href*="#ini"]{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            gap: 5px;
+            margin-right: 20px;
         }
         &[href*="#sec1"]{
             background: none;
